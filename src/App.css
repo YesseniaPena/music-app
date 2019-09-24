@@ -20,3 +20,12 @@
 .App-link {
   color: #09d3ac;
 }
+.root {
+  flex-grow: 1;
+}
+.menuButton {
+  margin-Right: 2pt;
+}
+.title {
+  flex-grow: 1;
+}
