@@ -29,3 +29,9 @@
 .title {
   flex-grow: 1;
 }
+.logIn {
+ text-align: center;
+}
+.user{
+  display: inline-flex;
+}
