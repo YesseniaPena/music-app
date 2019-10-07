@@ -24,14 +24,49 @@
   flex-grow: 1;
 }
 .menuButton {
-  margin-Right: 2pt;
+  margin-right: 2pt;
 }
 .title {
   flex-grow: 1;
 }
-.logIn {
- text-align: center;
+
+.login-container {
+  display: flex;
+  justify-content: center;
 }
-.user{
-  display: inline-flex;
+.logIn {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.login-button {
+  background: #3f51b5;
+  width: 300px;
+  height: 25px;
+}
+.online-mode{
+  border: 1px solid red;
+  width: 20%;
+  margin-top: 10%;
+}
+.Master-volume{
+  border: 1px solid blue;
+  width: 20%;
+  margin-top: 10%;
+}
+
+.Sound-quality{
+  border: 1px solid green;
+  width: 20%;
+  margin-top: 10%;
+}
+.dashboard-container{
+  display: flex;
+  justify-content: space-around;
+}
+h1{
+  height: 30px;
+  margin-left: 100px;
+  color: grey;
 }

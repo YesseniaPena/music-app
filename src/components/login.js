@@ -17,19 +17,25 @@ class Login extends Component {
     return this.state.loggedIn ? (
       <Dashboard />
     ) : (
-      <div className="logIn">
-        
-        <TextField  className="user">User Name</TextField>
-      
-        <TextField  className="password">Password</TextField>
-        
-        <Button
-          onClick={() => {
-            this.setState({ loggedIn: true });
-          }}
-        >
-          Login
-        </Button>
+      <div className="login-container">
+        <div className="logIn">
+          <TextField className="user" label="username">
+            User Name
+          </TextField>
+
+          <TextField className="password" label="password">
+            Password
+          </TextField>
+
+          <Button
+            classes={{ label: "login-button" }}
+            onClick={() => {
+              this.setState({ loggedIn: true });
+            }}
+          >
+            Login
+          </Button>
+        </div>
       </div>
     );
   }
