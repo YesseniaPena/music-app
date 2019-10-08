@@ -54,7 +54,7 @@ class Dashboard extends Component {
         this.state.notifications.push("Music quality is degraded. Increase quality if your connection allows it."
         );
       }else{
-          
+
       }
     this.setState({ values: event.target.value });
   };
@@ -93,7 +93,7 @@ class Dashboard extends Component {
               </Typography>
               <Typography color="textSecondary">adjective</Typography>
               <Typography variant="body2" component="p">
-                well meaning and kindly.
+                Overrides all other sound settings in this application
               </Typography>
             </CardContent>
             <CardActions>
@@ -117,9 +117,8 @@ class Dashboard extends Component {
               </Typography>
 
               <Typography variant="body2" component="p">
-                well meaning and kindly.
-                <br />
-                {'"a benevolent smile"'}
+                Manually control the music quality in event of poor connection
+              
               </Typography>
             </CardContent>
             <CardActions>
